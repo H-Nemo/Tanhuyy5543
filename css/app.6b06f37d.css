@@ -1,0 +1,87 @@
+#custom_launcher_selector {
+    display: none;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 20;
+    border-radius: 50px;
+    cursor: pointer;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAAAAXNSR0IArs4c6QAAAW5QTFRFAAAAVSqqbSS2VxavVRWqVxStVRGqVhKsVRKqVhOsVhKsVhKrVhKrVRGqVBOrVhKrVBKrVRKqVRKqVRGqVRGqVRGqVRKqVBGrVBGrVRKqVBGrVRGqVBGrVBGqVRKqVhOrVhSrWBasWRisWhmtWhqtWxutXByuXh+vYSOwYyaxZCeyZCiyZSmyZiqzbTS2bja3cju5eEO8fku/fky/g1PBhFTChlfDjF/GjWHGkGXIkWbImnPNm3TNnHXOon7RpYHSp4TTp4XTqIbUr4/XsJHYs5XZtZjat5zbuJ3cv6bfwargwqvhxa7iyLPkyrXky7flzLnmzrrm0L3n0sHp1MTq1cXq2Mns3M7t3M/u3dDu3tHu3tLv39Pv4NXw4tbw5Nnx5Nry5dvy5t3z597z6OD06eH06uL06uP16+P17OT17eb28ez48u348u758+/59PD59vL6+PX7+Pb8+vj8+vn9+/r9/Pv9/Pz+/v7+////2u3fCgAAAB10Uk5TAAYHIyQyPFNUXHGAg4SImKCrt8zP3+Ls7/H4+f5sr2EGAAACyElEQVRYw+2Y6VtSQRTG2XdlBxFeUMqlrLBoJdc0yxY1bcE2y7JMjLSyOv99H3owLmfuzICXPvTwfmTO/B7mzpzVZuupJ5vLH4omkulsNp1MREN+14lgDl8khRalIj5Hhzh3eABCDYTdHeA8MUgU87T75aQ4AIi18zXtwUEoNRi06/KccWgp7tTjeTPQVMarwwvkoK1cQM3rR1vqt5inJAbQtqSn9ubaB+YkN+PMoANlTF+PPY6OFDd74UF0qKCJ/5r4W6G8tLF1cLC1sVQumHih2K/F8WBssUbHqi2OiSOFMF6JLPPTTTgiotp0XmTn0fyDIyvEtDKi9xfdArOJTRJoc0JgymN4mBsVqyRUtchtwywfCfLHMploWZBnWjOXj9tUyFQVbu1rAUaYxfCOOXBnmJlHWoAs/2KKJJpi5qkWL+Fn2JYBt7m90Vv8bL1EUpXYBr8B2MfWZ+TAGbYhZABG2fqqHLjKNkQNwARbr8qBVbYhYQAm2fqeHLjHNiQNwDRbP5IDj9iGtAGYZeuf5cB9tiGrAL6VA98ogPzI63LguuLI/FJuyYHzikvhz6YsB15SPBv+sPO7Mt5uQfGwueth3kBYe7q9//XXt/rOs0dfiGgOCtfjwQHj9WbghePfR+tE9XEogoMgfBkD4otGQh56SEQ3oQpfggCLwuNm4vMzAIDTa0T0RJCbU8oUAIwbksDh3WsXL8++I6L3ggOzFOAT1QOlj8IbLolsvRppFDj/ivNenhO2aw6NRA+guPDTiPuxcEpoGNYqRQBg8l5TIPt+f9LEzK1bzQG43sB9mDtr2vnplnMAcPvPJT+4kjevYT36BSeGPhEdrtwYlbam7ZTEldd3rhYVjanr3xTt1rcVljc+1rdm1jeP1re31jfg1o8IrB9iWD9msX4QZP2oqgvDtC6M+7owkGyMTPv+jkz7Tjgy7ek/0W/fz7ls9RWbZwAAAABJRU5ErkJggg==);
+    background-size: 100% 100%
+}
+
+@media(max-width:768px) {
+    #custom_launcher_selector {
+        display: inline-block;
+        top: 14px;
+        right: 65px;
+        width: 30px;
+        height: 30px;
+        z-index: 1031
+    }
+    .intercom-wrapper {
+        top: unset !important;
+        bottom: 20px !important;
+        right: 20px !important
+    }
+    .intercom-wrapper_login {
+        top: 18px !important;
+        right: 55px !important;
+        bottom: unset !important
+    }
+    .model-content-border {
+        border-bottom-left-radius: 0 !important;
+        border-bottom-right-radius: 0 !important
+    }
+}
+
+.model-content-border {
+    border: none;
+    border-radius: 14px
+}
+
+.model-header-customboder {
+    border-bottom: none
+}
+
+.modal-body-custom {
+    padding-bottom: 40px
+}
+
+.share-text {
+    color: #333;
+    line-height: 16px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.btn-save-img,
+.share-text {
+    font-size: 16px;
+    font-family: Roboto-Medium, Roboto;
+    font-weight: 500
+}
+
+.btn-save-img {
+    height: 50px;
+    background: #7325ef;
+    border-radius: 4px;
+    color: #fff;
+    line-height: 19px;
+    padding-left: 80px;
+    padding-right: 80px
+}
+
+.modal-dialog-custom {
+    width: 340px
+}
+
+@media(max-width:768px) {
+    .modal-dialog-custom {
+        width: 100%;
+        max-width: 100%
+    }
+}
